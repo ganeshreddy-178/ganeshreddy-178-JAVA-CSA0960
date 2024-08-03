@@ -1,0 +1,21 @@
+package Whileloop;
+
+import java.util.Scanner;
+
+public class Whileloop {
+    public static void main(String[] args) {
+        int i = 10;
+        int sum = 0; 
+        System.out.println("Countdown to Launch!");
+        
+        
+        do {
+            System.out.println(i); 
+            sum += i; 
+            i--; 
+        } while (i >= 0); 
+        
+        System.out.println("Blast Off!"); 
+        System.out.println("The sum of all numbers in the countdown is: " + sum); 
+    }
+}
